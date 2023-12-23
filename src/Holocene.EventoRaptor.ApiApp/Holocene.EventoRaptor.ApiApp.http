@@ -1,0 +1,6 @@
+@Holocene.EventoRaptor.ApiApp_HostAddress = https://localhost:5051
+
+GET {{Holocene.EventoRaptor.ApiApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
