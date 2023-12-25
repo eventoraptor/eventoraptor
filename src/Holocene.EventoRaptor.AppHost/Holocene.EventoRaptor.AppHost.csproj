@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(AspNetTargetFramework)</TargetFramework>
+
+    <OutputType>Exe</OutputType>
+    <IsAspireHost>true</IsAspireHost>
+
+    <AssemblyName>Holocene.EventoRaptor.AppHost</AssemblyName>
+    <RootNamespace>Holocene.EventoRaptor.AppHost</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting" Version="8.0.0-preview.2.23619.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Holocene.EventoRaptor.ApiApp\Holocene.EventoRaptor.ApiApp.csproj" />
+    <ProjectReference Include="..\Holocene.EventoRaptor.WebApp\Holocene.EventoRaptor.WebApp.csproj" />
+  </ItemGroup>
+
+</Project>
