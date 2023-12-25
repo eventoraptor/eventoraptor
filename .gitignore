@@ -484,3 +484,5 @@ $RECYCLE.BIN/
 *.swp
 
 .DS_Store
+appsettings.Development.json
+appsettings.Production.json

@@ -1,5 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Holocene.EventoRaptor.ServiceDefaults\Holocene.EventoRaptor.ServiceDefaults.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>$(AspNetTargetFramework)</TargetFramework>
 
